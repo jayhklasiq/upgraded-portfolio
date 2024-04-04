@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	/* Crimson Pro */
+	@font-face {
+		font-family: "Crimson Pro";
+		font-style: bold;
+		font-weight: 900;
+		src: url("/fonts/Crimson_Pro/static/CrimsonPro-SemiBold.ttf");
+	}
+
+	/* Dancing Script */
+	@font-face {
+		font-family: "Dancing Script";
+		font-weight: 400 700;
+		src: url("/fonts/Dancing_Script/static/DancingScript-Regular.ttf");
+	}
+
+	/* Satisfy */
+	@font-face {
+		font-family: "Satisfy";
+		src: url("/fonts/Satisfy/Satisfy-Regular.ttf");
+	}
+
+	/* Tenor Sans */
+	@font-face {
+		font-family: "Tenor Sans";
+		src: url("/fonts/Tenor_Sans/TenorSans-Regular.ttf");
+	}
+}
